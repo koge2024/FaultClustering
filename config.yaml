@@ -1,0 +1,6 @@
+# config.yaml
+shapefile_path: "./lineament.shp"  # Path to the input shapefile
+k: 3  # Number of clusters
+R2: 0.95  # Threshold for linearity filtering
+output_directory: "./output"  # Directory to save logs and results
+log_level: "INFO"  # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
